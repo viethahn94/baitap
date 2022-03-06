@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Số nguyên tố</title>
+    <style>
+        .d-flex {
+            display: flex;
+        }
+        
+        .error {
+            color: red;
+        }
+        
+        .d-none {
+            display: none;
+        }
+        
+        .prime-item {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="error">
+
+    </ul>
+    <div class="d-flex">
+        <div>
+            <span>Số a</span>
+            <input type="number" class="first-number" placeholder="number a">
+        </div>
+        <div>
+            <span>Số b</span>
+            <input type="number" class="second-number" placeholder="number b">
+        </div>
+        <div>
+            <button class="btn-generate-prime">In ra số nguyên tố</button>
+        </div>
+    </div>
+    <div class="result-box d-none">
+        <p>Kết quả:</p>
+        <div class="result">
+
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

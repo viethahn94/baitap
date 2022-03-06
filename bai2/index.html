@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In tam giác</title>
+    <style>
+        .d-flex {
+            display: flex;
+        }
+        
+        .error {
+            color: red;
+        }
+        
+        .d-none {
+            display: none;
+        }
+        
+        .prime-item {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="error">
+
+    </ul>
+    <div class="d-flex">
+        <div>
+            <span>Nhập số nguyên </span>
+            <input type="number" class="first-number" placeholder="nhập số nguyên">
+        </div>
+        <div>
+            <button class="btn-generate-prime">In ra tam giác</button>
+        </div>
+    </div>
+    <div class="result-box d-none">
+        <p>Kết quả:</p>
+        <div class="result">
+
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+<script src="./funtion.js"></script>
+
+</html>
